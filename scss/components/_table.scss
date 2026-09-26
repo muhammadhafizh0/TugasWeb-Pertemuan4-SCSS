@@ -1,0 +1,12 @@
+@use '../abstracts/variables' as *;
+table {
+  width: 100%; 
+  border-collapse: collapse;
+  margin-bottom: $jarak-standar;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}

@@ -1,0 +1,7 @@
+@use '../abstracts/variables' as *;
+.site-footer {
+  background-color: $warna-utama;
+  color: white;
+  text-align: center;
+  padding: 16px;
+}

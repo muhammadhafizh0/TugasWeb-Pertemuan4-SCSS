@@ -1,0 +1,17 @@
+@use 'variables' as *;
+@mixin flex-row($gap: 10px) {
+  display: flex;
+  gap: $gap;
+}
+
+@mixin card-style {
+  background-color: $warna-latar;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+@mixin heading-style {
+  color: $warna-utama;
+  border-bottom: 2px solid $warna-aksen;
+  padding-bottom: 4px;
+}

@@ -1,0 +1,17 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+.nav-menu {
+  @include flex-row($jarak-standar);
+  background-color: $warna-aksen;
+  padding: 12px 24px;
+
+  &__link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

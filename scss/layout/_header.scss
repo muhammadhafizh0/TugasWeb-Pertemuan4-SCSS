@@ -1,0 +1,20 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+.header-biodata {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: $jarak-standar;
+  align-items: center;
+  background-color: $warna-utama;
+  color: white;
+  padding: 24px;
+
+  h1 {
+    font-family: $font-judul;
+    grid-column: 2;
+  }
+
+  figure {
+    grid-row: 1 / 3;
+  }
+}

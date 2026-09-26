@@ -1,0 +1,10 @@
+@use '../abstracts/mixins' as *;
+h1, h2, h3 {
+  @include heading-style;
+}
+
+@for $i from 1 through 3 {
+  .text-size-#{$i} {
+    font-size: 1rem * $i;
+  }
+}
